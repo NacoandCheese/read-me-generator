@@ -1,1 +1,3 @@
-# README.md Generater 
+# README.md Generator
+        ## Generates README.md
+    

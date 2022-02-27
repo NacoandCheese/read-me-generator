@@ -15,7 +15,9 @@ function generateMarkdown(data) {
     //Data is our answers to the users questions. Answers become data.
 
     // Return sends data out of the function. 
-    return `# ${data['projectTitle']}`    
+    return `# ${data['projectTitle']}
+        ## ${data['description']}
+    `    
 }
 
 module.exports = generateMarkdown;
